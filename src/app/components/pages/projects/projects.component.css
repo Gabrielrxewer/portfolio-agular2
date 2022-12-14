@@ -1,13 +1,32 @@
 .container {
+
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 40px;
+}
+p {
+  font-size: 20px;
+  margin-top: 5px;
+  text-align: center;
+}
+.img {
     height: 650px;
+    width: 100%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     font-size: 40px;
+    background-image: url("./compute-ea4c57a4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
-p {
-    font-size: 20px;
-    margin-top: 5px;
+.teste {
+    height: 600px;
 }

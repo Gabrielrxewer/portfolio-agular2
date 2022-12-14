@@ -6,6 +6,11 @@
   justify-content: center;
   flex-direction: column;
   font-size: 40px;
+  background-image: url("./compute-ea4c57a4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
 }
 p {
   font-size: 20px;
@@ -21,14 +26,12 @@ p {
   background-image: none;
 }
 h3 {
-  background-image: none;
   color: #151019;
   text-align: center;
 }
 .textsec {
   width: 60%;
   margin-top: 50px;
-  background-image: none;
   color: #151019;
   text-align: center;
 }
@@ -36,7 +39,6 @@ h3 {
   text-decoration: underline;
   border: none;
   color: #151019;
-  background-image: none;
   transition: 0.7s;
 }
 
@@ -46,10 +48,7 @@ h3 {
   text-decoration: none;
   border-radius: 4px;
 }
-i {
-  background-color: white;
-  background-image: none;
-}
+
 .scroll {
   display: flex;
   align-items: center;
@@ -70,10 +69,25 @@ button {
   color: #151019;
   border: 1px solid #151019;
   background-color: #74a8d9;
-  padding: 15px;
+  height: 40px;
+  width: 140px;
   border-radius: 14px;
   cursor: pointer;
+  font-size: 16px;
 }
 button:hover {
   border: 1px solid azure;
 }
+.cadastro {
+  height: 600px;
+}
+.inpCadastro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#pr {
+  margin-top: 12px;
+}
+

@@ -9,10 +9,4 @@ export class HeaderComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {}
-
-  showBar: boolean = false;
-
-  tshowBar() {
-    this.showBar = !this.showBar;
-  }
 }
